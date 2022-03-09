@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6E9"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/sign_in_btn"
+        android:layout_width="319dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#06623B"
+        app:layout_constraintBottom_toTopOf="@+id/sign_up_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_btn"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_btn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sign_in_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sign_in_btn"
+        app:layout_constraintStart_toStartOf="@+id/sign_in_btn"
+        app:layout_constraintTop_toTopOf="@+id/sign_in_btn" />
+
+    <View
+        android:id="@+id/sign_up_btn"
+        android:layout_width="319dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FEB72B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/sign_up_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sign_up_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_btn"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_btn"
+        app:layout_constraintTop_toTopOf="@+id/sign_up_btn" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/fitmeal"
+        app:layout_constraintEnd_toEndOf="@+id/fitmeal"
+        app:layout_constraintStart_toStartOf="@+id/fitmeal"
+        app:srcCompat="@drawable/broccoli_1" />
+
+    <ImageView
+        android:id="@+id/fitmeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/healthy_food_delivery"
+        app:layout_constraintEnd_toEndOf="@+id/healthy_food_delivery"
+        app:layout_constraintStart_toStartOf="@+id/healthy_food_delivery"
+        app:srcCompat="@drawable/fitmeal" />
+
+    <ImageView
+        android:id="@+id/healthy_food_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="118dp"
+        app:layout_constraintBottom_toTopOf="@+id/lorem"
+        app:layout_constraintEnd_toEndOf="@+id/lorem"
+        app:layout_constraintStart_toStartOf="@+id/lorem"
+        app:srcCompat="@drawable/healthy_food_delivery" />
+
+    <ImageView
+        android:id="@+id/lorem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/lorem_ipsum_dolor_sit_amet"
+        app:layout_constraintEnd_toEndOf="@+id/lorem_ipsum_dolor_sit_amet"
+        app:layout_constraintStart_toStartOf="@+id/lorem_ipsum_dolor_sit_amet"
+        app:srcCompat="@drawable/lorem_ipsum" />
+
+    <ImageView
+        android:id="@+id/lorem_ipsum_dolor_sit_amet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sign_in_btn"
+        app:layout_constraintStart_toStartOf="@+id/sign_in_btn"
+        app:srcCompat="@drawable/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__mattis_leo_sapien_metus_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
