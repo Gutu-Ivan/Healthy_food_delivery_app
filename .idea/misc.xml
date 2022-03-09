@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/drawable/rectangle.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/drawable/rectangle_1.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/drawable/rectangle_square.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/font/open_sans.xml" value="0.30833333333333335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/sign_up1.xml" value="0.278125" />
       </map>
     </option>
   </component>
