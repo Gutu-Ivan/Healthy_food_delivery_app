@@ -3,4 +3,7 @@
     <string name="forgot_pass">Forgot Password</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+    <string name="search">Find food here</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
 </resources>
