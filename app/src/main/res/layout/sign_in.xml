@@ -18,10 +18,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/username_view" />
 
     <View
-        android:id="@+id/password"
+        android:id="@+id/username_view"
         android:layout_width="319dp"
         android:layout_height="60dp"
         android:layout_alignParentLeft="true"
@@ -67,9 +67,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/password"
-        app:layout_constraintStart_toStartOf="@+id/password"
-        app:layout_constraintTop_toTopOf="@+id/password"
+        app:layout_constraintBottom_toBottomOf="@+id/username_view"
+        app:layout_constraintStart_toStartOf="@+id/username_view"
+        app:layout_constraintTop_toTopOf="@+id/username_view"
         app:srcCompat="@drawable/person_outline_black_18dp_1" />
 
     <TextView
@@ -80,9 +80,9 @@
         android:text="Username"
         android:textColor="#A7A7A7"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/password"
+        app:layout_constraintBottom_toBottomOf="@+id/username_view"
         app:layout_constraintStart_toEndOf="@+id/user_icon"
-        app:layout_constraintTop_toTopOf="@+id/password" />
+        app:layout_constraintTop_toTopOf="@+id/username_view" />
 
     <ImageView
         android:id="@+id/show_pass_icon"
