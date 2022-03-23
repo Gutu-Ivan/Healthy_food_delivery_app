@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "915439605362",
+    "project_id": "healthyfooddelivery-c0290",
+    "storage_bucket": "healthyfooddelivery-c0290.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915439605362:android:cad4679c775b6d2cb754eb",
+        "android_client_info": {
+          "package_name": "com.healthyfooddeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915439605362-u7tea2kvni84brto56cl60hu447s4qdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj7wx1KCNoIR1Qaa0wEpXBbluQej67v8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915439605362-u7tea2kvni84brto56cl60hu447s4qdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
