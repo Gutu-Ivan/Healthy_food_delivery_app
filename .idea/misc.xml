@@ -16,8 +16,10 @@
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_2.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_4.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_6.xml" value="0.332" />
-        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/discover.xml" value="0.33" />
-        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/discover.xml" value="0.685418208734271" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/sign_up.xml" value="0.33" />
       </map>
     </option>
   </component>
