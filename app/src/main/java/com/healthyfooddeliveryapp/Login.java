@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -14,24 +16,33 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Objects;
+
 public class Login extends AppCompatActivity {
-    EditText mEmail, mPassword;
+    private TextInputEditText mEmail;
+    private TextInputEditText mPassword;
     Button mLoginBtn;
     ProgressBar progressBar;
     FirebaseAuth fAuth;
+    TextView mRestorePassView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_in);
 
-        mEmail    = findViewById(R.id.email_view_registration);
-        mPassword = findViewById(R.id.password_view_login);
+        mRestorePassView = (TextView) findViewById(R.id.restore_pass_view);
+        mEmail    = (TextInputEditText) findViewById(R.id.restore_email_text);
+        mPassword = (TextInputEditText) findViewById(R.id.log_password_text);
         mLoginBtn = findViewById(R.id.login_btn);
-
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progress_bar_login);
 
@@ -54,19 +65,27 @@ public class Login extends AppCompatActivity {
                     return;
                 }
 
-                progressBar.setVisibility(View.VISIBLE);
-
-                fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()) {
                             Toast.makeText(Login.this, "Logged in successful", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), Products.class));
                         } else{
                             Toast.makeText(Login.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
+                progressBar.setVisibility(View.VISIBLE);
+            }
+        });
+    }
+
+    public void onRestorePass(View view) {
+        mRestorePassView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.restore_password);
             }
         });
     }

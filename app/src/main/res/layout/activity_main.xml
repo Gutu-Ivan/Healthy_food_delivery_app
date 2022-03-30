@@ -79,28 +79,30 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/sign_in_btn"
                 android:layout_width="319dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="35dp"
+                android:background="@drawable/rectangle"
+                android:backgroundTint="@color/green_main"
+                android:onClick="onLogin"
                 android:text="@string/sign_in"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:background="@drawable/rectangle"
-                android:backgroundTint="@color/green_main"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/sign_up_btn"
                 android:layout_width="319dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="26dp"
                 android:background="@drawable/rectangle"
                 android:backgroundTint="#FEB72B"
+                android:onClick="onRegistration"
                 android:text="@string/sign_up"
                 android:textAlignment="center"
                 android:textSize="20sp"

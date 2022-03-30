@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HealthyFoodDeliveryApp">
+        android:theme="@style/Theme.HealthyFoodDeliveryApp"
+        android:hardwareAccelerated="true">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -19,6 +20,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Products"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ForgotPass"
+            android:screenOrientation="portrait">
         </activity>
         <meta-data
             android:name="preloaded_fonts"

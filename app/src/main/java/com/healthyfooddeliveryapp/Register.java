@@ -4,10 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -15,25 +15,34 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Objects;
+
 public class Register extends AppCompatActivity {
-    EditText mUsername, mEmail, mPassword;
+    private TextInputEditText mUsername;
+    private TextInputEditText mEmail;
+    private TextInputEditText mPassword;
     Button mRegisterBtn;
     FirebaseAuth fAuth;
     ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle saveInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         super.onCreate(saveInstanceState);
         setContentView(R.layout.sign_up);
 
-        mUsername = findViewById(R.id.username_view_registration);
-        mEmail    = findViewById(R.id.email_view_registration);
-        mPassword = findViewById(R.id.password_view_login);
-        mRegisterBtn = findViewById(R.id.registration_btn);
+        mUsername = (TextInputEditText) findViewById(R.id.reg_username_text);
+        mEmail    = (TextInputEditText) findViewById(R.id.reg_email_text);
+        mPassword = (TextInputEditText) findViewById(R.id.reg_password_text);
 
+        mRegisterBtn = findViewById(R.id.registration_btn);
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progress_bar_registration);
 
@@ -45,6 +54,7 @@ public class Register extends AppCompatActivity {
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String username = mUsername.getText().toString().trim();
                 String email = mEmail.getText().toString().trim();
                 String password = mPassword.getText().toString().trim();
 
