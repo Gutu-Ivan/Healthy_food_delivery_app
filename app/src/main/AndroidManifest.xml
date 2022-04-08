@@ -37,6 +37,10 @@
             android:name=".ForgotPass"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".ProductDetails"
+            android:screenOrientation="portrait">
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
