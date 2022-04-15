@@ -4,20 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2825" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable/ic_check_mark.xml" value="0.24780701754385964" />
         <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable/ic_lock.xml" value="0.2825" />
         <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable/ic_mail.xml" value="0.2825" />
         <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable/ic_person.xml" value="0.2825" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle.xml" value="0.24780701754385964" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_1.xml" value="0.24780701754385964" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/details.xml" value="0.25" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/product_detail.xml" value="0.5" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/product_details.xml" value="0.25" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/products.xml" value="0.33" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/restore_password.xml" value="0.25" />
         <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/sign_in.xml" value="0.25" />
-        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/sign_up.xml" value="0.25" />
+        <entry key="..\:/USARB/IS31Z/Healthy_food_delivery_app/app/src/main/res/layout/sign_up.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/drawable/rectangle.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/drawable/rectangle_1.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/drawable/rectangle_square.xml" value="0.2942708333333333" />
@@ -26,12 +19,18 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/sign_in.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/sign_up.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Healthyfooddeliveryapp/app/src/main/res/layout/sign_up1.xml" value="0.278125" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/ic_cart.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle2.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_1.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_2.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_4.xml" value="0.332" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/drawable/rectangle_6.xml" value="0.332" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/discover.xml" value="0.33" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/products.xml" value="0.33" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/row_of_products.xml" value="0.33" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/shopping_cart.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/sign_in.xml" value="0.2712962962962963" />
         <entry key="..\:/Users/gutsu/StudioProjects/Healthy_food_delivery_app/app/src/main/res/layout/sign_up.xml" value="0.25" />
       </map>
     </option>

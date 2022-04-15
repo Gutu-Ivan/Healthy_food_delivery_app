@@ -9,4 +9,49 @@
     <string name="username">Username</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="products">Recycler View</string>
+
+    <string-array name="product_names">
+        <item>Strawberry Summer</item>
+        <item>Strawberry Paradise</item>
+        <item>Fresh Strawberry</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+    </string-array>
+    
+    <string-array name="product_descriptions">
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+        <item>Strawberry Summer</item>
+    </string-array>
+
+    <string-array name="product_prices">
+        <item>4.5</item>
+        <item>7</item>
+        <item>10.1</item>
+        <item>7.2</item>
+        <item>8.5</item>
+        <item>6.8</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="product_btns">
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+        <item>Add to cart</item>
+    </string-array>
 </resources>
